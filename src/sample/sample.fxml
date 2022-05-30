@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="mainAnchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="488.0" prefWidth="709.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TableView fx:id="tableInhabitants" layoutX="14.0" layoutY="33.0" prefHeight="442.0" prefWidth="682.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="75.0" text="№ п/п" />
+          <TableColumn fx:id="type" prefWidth="100.0" text="Имя" />
+            <TableColumn fx:id="name" prefWidth="55.0" text="Значок" />
+            <TableColumn fx:id="startNumber" prefWidth="171.0" text="Начальное количество" />
+            <TableColumn fx:id="numbersBorn" prefWidth="129.0" text="Родилось" />
+            <TableColumn fx:id="numbersDied" prefWidth="151.0" text="Умерло" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
